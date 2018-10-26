@@ -19,4 +19,4 @@ $ docker-compose up
 
 Once the containers are built and running, you can load the notebook here:
 
-    http://localhost:10000/notebooks/work/Movie%20Demo.ipynb?token=techtalk
+http://localhost:10000/notebooks/work/Movie%20Demo.ipynb?token=techtalk
