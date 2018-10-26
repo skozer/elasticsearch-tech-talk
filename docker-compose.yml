@@ -1,11 +1,13 @@
 version: "3"
 services:
-  notebook:
+  jupyter:
     build: .
+    environment:
+      - JUPYTER_TOKEN=techtalk
     volumes:
       - .:/home/jovyan/work
     ports:
-      - 8888:8888
+      - 10000:8888
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
     environment:
